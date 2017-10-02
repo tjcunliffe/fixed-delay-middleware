@@ -18,7 +18,7 @@ func main() {
 
 	r := mux.NewRouter()
 
-	r.Path("/fixed-delay").Methods("POST").HandlerFunc(fixedDelayHandler)
+	r.Path("/process").Methods("POST").HandlerFunc(fixedDelayHandler)
 
 	srv := &http.Server{
 		Handler:      r,
