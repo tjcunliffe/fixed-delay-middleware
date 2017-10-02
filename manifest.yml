@@ -1,6 +1,6 @@
 ---
 applications:
-  - name: hoverfly-middleware
+  - name: fixed-delay-middleware
     buildpack: go_buildpack
     memory: 64M
     commad: ./fixed-delay-middleware
